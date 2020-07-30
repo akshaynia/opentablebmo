@@ -1,0 +1,57 @@
+.tablel{
+    border: 1px solid #766;
+    border-collapse: collapse;
+    table-layout: auto;
+    margin-top: 15px;
+    
+
+}
+.searchcontainer{
+    margin-top: 10px;
+}
+
+th{
+    font: italic;
+    border: 1px solid #456874;
+    background: #987;
+}
+
+td{
+    font: italic;
+    border: 1px solid #456874;
+}
+.pagel{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    margin-top: 15px;
+    
+}
+.pagel:hover{
+    cursor: pointer;
+}
+
+.mapclass{
+    display: flex;
+    justify-content: space-between;
+}
+.searchrestaurant{
+    padding: 3px;
+}
+.searchrestaurant:hover{
+    background:#9389;
+}
+.pagenumber{
+    width: 17px;
+    padding: 5px;
+    margin: 1px;
+    background: rgb(231, 199, 199);
+    
+
+}
+.pagenumber:hover{
+    background: rgb(112, 95, 95);
+}
+.pagenumber:active{
+    background: rgb(112, 95, 95);
+}
